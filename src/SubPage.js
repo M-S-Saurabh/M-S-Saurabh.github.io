@@ -53,7 +53,7 @@ class ListPage extends Component{
                         pageNames.map((name)=>(
                             <button 
                                 className={`mr-3 btn btn-outline-dark ${name===this.state.selected ? 'active': ''}`}
-                                value={name} 
+                                value={name} key={name}
                                 onClick={this.handleButtonClick}
                             >{name}</button>
                             

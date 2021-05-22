@@ -25,7 +25,7 @@ class NameDiv extends Component{
           </h1>
           {
             this.state.isHovering &&
-            <span className="h6">Pronounced as: <span className="text-muted">{this.props.profile.pronunce}</span></span>
+            <p className="h6">Pronounced as: <span className="text-muted">{this.props.profile.pronunce}</span></p>
           }
         </div>
       );

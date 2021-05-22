@@ -7,6 +7,10 @@
   text-align: left;
 }
 
+#profileInfo > p {
+  margin-bottom: 0.5em;
+}
+
 .infoIndicator {
   font-size: x-small;
   color: darkgray;
