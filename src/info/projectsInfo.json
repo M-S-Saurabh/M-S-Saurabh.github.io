@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Path planning and Collision avoidance",
+        "url": "https://sites.google.com/a/umn.edu/saurabh-5611-hw1/home/motion-planning-crowd-simulation",
+        "description": [
+            "Implemented motion planning for crowds of agents to navigate a map with obstacles in > 40 fps.",
+            "Experimented with A-star, 3D RRT for planning and time-to-collision, boids for collision avoidance.",
+            "https://www.youtube.com/watch?v=0DgEE4MBD1I"
+        ],
+        "organization": "(Java, Processing)",
+        "dates": "March 2020"
+    },
+    {
+        "title": "Physics-based game animations",
+        "url": "https://sites.google.com/a/umn.edu/saurabh-5611-hw1/home/cloth-water-simulation",
+        "description": [
+            "Built realistic looking cloth using a grid of nodes acted on by spring forces, gravity and air drag.",
+            "Built 2D water waves using a grid of water columns acted on by forces from shallow water equations.",
+            "Wrote our own vector math library, and implemented numerical integrations to render at > 30 fps."
+        ],
+        "organization": "(Java, Processing)",
+        "dates": "February 2020"
+    },
+    {
+        "title": "Replicated Bank Server Application",
+        "url": "https://github.com/M-S-Saurabh/ServerReplication",
+        "description": [
+            "Created a group of server processes performing total-ordered operations, just using Lamport clocks.",
+            "Many distributed multithreaded clients can all only see a consistent state machine model."
+        ],
+        "organization": "Java RMI",
+        "dates": "Spring 2021"
+    },
+    {
+        "title": "Distributed Hash Table",
+        "url": "https://github.com/M-S-Saurabh/ChordDataStore",
+        "description": [
+            "Built a dictionary storage server using the Chord P2P protocol using Java RMI for communication."
+        ],
+        "organization": "Java RMI",
+        "dates": "April 2021"
+    },
+    {
+        "title": "Machine Learning algorithms",
+        "url": "https://linkslist.app/arVUc3N",
+        "description": [
+            "Implemented Logistic Regression, Naive Bayes, SVM, Neural Networks, CNNs, Random Forests.",
+            "Compared de-biasing methods using fairness metrics like demographic parity and equal opportunity."
+        ],
+        "organization": "Python, MNIST, Breast-Cancer",
+        "dates": "Fall 2020"
+    },
+    {
+        "title": "AI Agent to play Super Mario",
+        "url": "https://github.com/M-S-Saurabh/deepqn-mario",
+        "description": [
+            "Implemented Deep Q-learning and Actor-Critic models to learn the game using reinforcement learning.",
+            "Successfully completed the first level of the game with 4 hours of training."
+        ],
+        "organization": "PyTorch, Python",
+        "dates": "April 2021"
+    }
+]

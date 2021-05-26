@@ -1,31 +1,53 @@
-import projectInfo from './projectsInfo.json';
-import educationInfo from './educationInfo.json';
-import experienceInfo from './experienceInfo.json';
+import projectInfo from './info/projectsInfo.json';
+import educationInfo from './info/educationInfo.json';
+import experienceInfo from './info/experienceInfo.json';
 import { Component } from 'react';
 
-const pagesInfo = {'Education': educationInfo, 'Projects': projectInfo, 'Experience': experienceInfo};
+const pagesInfo = {
+    'Education': educationInfo, 
+    'Projects': projectInfo, 
+    'Experience': experienceInfo
+};
 const pageNames = Object.keys(pagesInfo);
 const pageDefault = 'Education';
 
 function ListItem(props){
+    var descriptionBlock = <p></p>;
+    if (Array.isArray(props.item.description)){
+        descriptionBlock = <ul>{
+            props.item.description.map((element, index) => {
+                return <li key={index}>{element}</li>;
+            })
+        }</ul>;
+    }else{
+        descriptionBlock = <p>{props.item.description}</p>;
+    }
+
     return (
         <div className="col-md-12 mt-3">
-            <h5 className="d-flex justify-content-between">
+            <h5 className="d-flex justify-content-between mb-1">
                 <div>
                     { props.item.url ?
                         <a href={props.item.url}>{props.item.title}</a>
                         : <span>{props.item.title}</span>
-                    }
-                    { props.item.organization ?
-                        <small className="text-muted pl-3">{props.item.organization}</small>
-                        : false
                     }
                 </div>
                 <div>
                     <small className="text-muted">{props.item.dates}</small>
                 </div>
             </h5>
-            <p>{props.item.description}</p>
+            <h6 className="d-flex justify-content-between">
+                <div>
+                    { props.item.organization ?
+                        <em className="text-muted">{props.item.organization}</em>
+                        : false
+                    }
+                </div>
+                <div>
+                    <em className="text-muted">{props.item.place}</em>
+                </div>
+            </h6>
+            {descriptionBlock}
         </div>
     );
 }

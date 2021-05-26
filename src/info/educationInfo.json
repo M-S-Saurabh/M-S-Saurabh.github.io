@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Master of Science in Computer Science",
+        "place": "Minneapolis, MN",
+        "description": ["GPA: 4.0 / 4.0", "Teaching Assistant: Intro to AI (CSCI 4311W)", "Teaching Assistant: Web programming (CSCI 4131)"],
+        "organization": "University of Minnesota-Twin Cities",
+        "dates": "May 2021"
+    },
+    {
+        "title": "B.Tech. in Electrical Engineering",
+        "place": "New Delhi, India",
+        "description": "",
+        "organization": "Indian Institute of Technology-Delhi",
+        "dates": "May 2017"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Dell EMC Corporation",
+        "place": "Remote (Austin, TX)",
+        "description": [
+            "Built automation workflows to collect network, system performance stats from servers. (Python, VBA)",
+            "Our system led to the discovery of an existing fatal problem in one model of switches.",
+            "Learned the architecture of server chassis and mastered their automation platform (Axon) within 2mos."
+        ],
+        "organization": "Graduate Intern",
+        "dates": "June 2020 - July 2020"
+    },
+    {
+        "title": "Samsung Research",
+        "place": "Delhi, India",
+        "description": [
+            "Built web crawlers and parsers in Java. Proposed a new crawler to improve price collection by 2x.",
+            "Built Vue JS, Bootstrap frontend with CRUD operations for hundreds of tasks using REST apis.",
+            "Initiative to reduce storage costs by moving processed data from ElasticSearch to S3. (Python)",
+            "Built Lambda tasks for a new domain after proactively learning AWS services (Athena, Cloudwatch)"
+        ],
+        "organization": "Software Engineer",
+        "dates": "July 2017 - July 2019"
+    },
+    {
+        "title": "Citibank Services India Ltd.",
+        "place": "Pune, India",
+        "description": [
+            "Built a full-stack web application to track project status in the organization.",
+            "Learned Node, Express, Angular and MongoDB stack starting from no experience.",
+            "Released the app and incorporated evolving user requirements in an Agile fashion."
+        ],
+        "organization": "Summer Intern",
+        "dates": "May 2016 - June 2016"
+    }
+]
