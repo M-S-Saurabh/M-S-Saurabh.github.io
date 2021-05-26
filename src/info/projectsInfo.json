@@ -1,7 +1,13 @@
 [
     {
+        "title": "All animation projects",
+        "url": "https://sites.google.com/view/animation-projects/home",
+        "organization": "(Java, Processing)",
+        "dates": "Spring 2020"
+    },
+    {
         "title": "Path planning and Collision avoidance",
-        "url": "https://sites.google.com/a/umn.edu/saurabh-5611-hw1/home/motion-planning-crowd-simulation",
+        "url": "https://sites.google.com/view/animation-projects/home/motion-planning-crowd-simulation",
         "description": [
             "Implemented motion planning for crowds of agents to navigate a map with obstacles in > 40 fps.",
             "Experimented with A-star, 3D RRT for planning and time-to-collision, boids for collision avoidance.",
@@ -12,7 +18,7 @@
     },
     {
         "title": "Physics-based game animations",
-        "url": "https://sites.google.com/a/umn.edu/saurabh-5611-hw1/home/cloth-water-simulation",
+        "url": "https://sites.google.com/view/animation-projects/home/cloth-water-simulation",
         "description": [
             "Built realistic looking cloth using a grid of nodes acted on by spring forces, gravity and air drag.",
             "Built 2D water waves using a grid of water columns acted on by forces from shallow water equations.",

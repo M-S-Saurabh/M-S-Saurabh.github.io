@@ -28,7 +28,7 @@ function ListItem(props){
             <h5 className="d-flex justify-content-between mb-1">
                 <div>
                     { props.item.url ?
-                        <a href={props.item.url}>{props.item.title}</a>
+                        <a href={props.item.url} target="_blank" rel="noreferrer">{props.item.title}</a>
                         : <span>{props.item.title}</span>
                     }
                 </div>
@@ -74,7 +74,7 @@ class ListPage extends Component{
                     {
                         pageNames.map((name)=>(
                             <button 
-                                className={`mr-3 btn btn-outline-dark ${name===this.state.selected ? 'active': ''}`}
+                                className={`btn btn-outline-dark mr-3 ${name===this.state.selected ? 'active': ''}`}
                                 value={name} key={name}
                                 onClick={this.handleButtonClick}
                             >{name}</button>

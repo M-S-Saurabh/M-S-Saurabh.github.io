@@ -7,6 +7,18 @@
   text-align: left;
 }
 
+/* The animation code */
+@keyframes nameAnimate {
+  0%   {color: black;}
+  25%  {color: red;}
+  50%  {color: green;}
+  25%  {color: red;}
+  100% {color: black;}
+}
+.nameAnimate {
+  animation: nameAnimate 1s infinite;
+}
+
 #profileInfo > p {
   margin-bottom: 0.5em;
 }
