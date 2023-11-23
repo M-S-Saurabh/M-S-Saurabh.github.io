@@ -1,5 +1,6 @@
 [
     {"name":"LinkedIn", "icon":"images/linkedin.png", "link":"https://www.linkedin.com/in/saurabh-mylavaram/"},
     {"name":"Github", "icon":"images/github.png", "link":"https://github.com/M-S-Saurabh/"},
-    {"name":"Youtube", "icon":"images/youtube.png", "link":"https://www.youtube.com/channel/UC7VEbIKstYTDlz9iSBo3ycQ"}
+    {"name":"Youtube", "icon":"images/youtube.png", "link":"https://www.youtube.com/channel/UC7VEbIKstYTDlz9iSBo3ycQ"},
+    {"name":"Goodreads", "icon":"images/goodreads.png", "link":"https://www.goodreads.com/saurabh_mylavaram"}
 ]
